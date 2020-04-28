@@ -25,7 +25,7 @@ public class RunnableLambdaExample {
 		};
 		new Thread(t3).start();
 		
-		new Thread(()->System.out.println("Thread 4")).start();;
+		new Thread(()->System.out.println("Thread 4")).start();
 
 	}
 

@@ -21,6 +21,16 @@ public class Person {
 		this.kids = kids;
 		this.hobbies = hobbies;
 	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", height=" + height + ", salary=" + salary + ", gender=" + gender + ", kids="
+				+ kids + ", hobbies=" + hobbies + "]";
+	}
+
+
 
 	public String getName() {
 		return name;

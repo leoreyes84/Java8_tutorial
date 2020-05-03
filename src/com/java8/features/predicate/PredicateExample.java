@@ -1,4 +1,4 @@
-package com.java8.features.consumer;
+package com.java8.features.predicate;
 
 import java.util.function.Predicate;
 

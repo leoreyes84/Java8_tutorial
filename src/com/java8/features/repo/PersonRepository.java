@@ -12,8 +12,9 @@ public class PersonRepository {
 		Person p4 = new Person("Susy", 130, 4900, "Female", 2, Arrays.asList("Criket", "Swimming"));
 		Person p5 = new Person("Ana", 125, 9000, "Female", 2, Arrays.asList("Footbol", "Swimming"));
 		Person p6 = new Person("Peter", 110, 9500, "Male", 2, Arrays.asList("Criket", "Swimming"));
+		Person p7 = new Person("Campbel", 165, 1980, "Male", 2, Arrays.asList("Football", "Swimming"));
 		
-		return Arrays.asList(p1, p2, p3, p4, p5, p6);
+		return Arrays.asList(p1, p2, p3, p4, p5, p6, p7);
 	}
 	
 	public static Person getPerson() {

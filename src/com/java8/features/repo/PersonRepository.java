@@ -2,6 +2,7 @@ package com.java8.features.repo;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class PersonRepository {
 	
@@ -19,6 +20,10 @@ public class PersonRepository {
 	
 	public static Person getPerson() {
 		return new Person("Jhon", 165, 2000, "Male", 2, Arrays.asList("Criket", "Swimming"));
+	}
+	
+	public static Optional<Person> getPersonOptiona(){
+		return Optional.of(getPerson());
 	}
 
 }

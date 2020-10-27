@@ -2,6 +2,7 @@ package com.java8.features.repo;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class Person {
 	
@@ -10,6 +11,7 @@ public class Person {
 	private double salary;
 	private String gender;
 	private int kids;
+	private Address address;
 	List<String> hobbies = new ArrayList<>();
 	
 	public Person() {
@@ -83,5 +85,13 @@ public class Person {
 	public void setHobbies(List<String> hobbies) {
 		this.hobbies = hobbies;
 	}
-	
+
+	public Optional<Address> getAddress() {
+		return Optional.of(address);
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
 }

@@ -22,8 +22,10 @@ public class PersonRepository {
 		return new Person("Jhon", 165, 2000, "Male", 2, Arrays.asList("Criket", "Swimming"));
 	}
 	
-	public static Optional<Person> getPersonOptiona(){
-		return Optional.of(getPerson());
+	public static Optional<Person> getPersonOptional(){
+		Person person = getPerson();
+		person.setAddress(new Address("7", "Aushburn", "Virginia"));
+		return Optional.of(person);
 	}
 
 }

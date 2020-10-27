@@ -25,6 +25,7 @@ public class OptionalIfElseExample {
 	private static void orElseGet(Optional<Person> person) {
 		String name = person.map(Person::getName).orElseGet(() -> {
 			//whatever logic
+			System.out.println("...whatever process...");
 			return "Data not found";
 		});
 

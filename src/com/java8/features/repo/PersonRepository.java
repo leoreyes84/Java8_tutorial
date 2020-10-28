@@ -15,7 +15,7 @@ public class PersonRepository {
 		Person p6 = new Person("Peter", 110, 9500, "Male", 2, Arrays.asList("Criket", "Swimming"));
 		Person p7 = new Person("Peter", 165, 1980, "Male", 2, Arrays.asList("Football", "Swimming"));
 		
-		return Arrays.asList(p1, p2, p3, p4, p5, p6, p7);
+		return Arrays.asList(p1, p2, p3, p4, null, p5, p6, p7);
 	}
 	
 	public static Person getPerson() {
